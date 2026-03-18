@@ -20,9 +20,10 @@ body {
   font-weight: 300;
 }
 
-*,
-*::before,
-*::after {
+.search,
+.search__form,
+.search__item,
+.search__input {
   box-sizing: border-box;
 }
 
@@ -30,7 +31,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 20px 8px;
+  padding: 20px;
 }
 
 .search__item {
